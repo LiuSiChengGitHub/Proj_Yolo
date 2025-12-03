@@ -1,0 +1,23 @@
+    # 操作系统文件
+    .DS_Store
+    Thumbs.db
+    
+    # Conda/Python 环境相关
+    __pycache__/
+    *.pyc
+    .ipynb_checkpoints/
+    venv/
+    .env
+    # Conda/虚拟环境的名称
+    .conda
+    
+    # 忽略巨大的模型文件、数据集、日志和结果
+    # 注意：您的模型、数据和日志通常不需要版本控制！
+    *.pt
+    *.pth
+    *.onnx
+    *.h5
+    data/
+    dataset/
+    logs/
+    results/
